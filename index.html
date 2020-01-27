@@ -1,0 +1,63 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8" />
+   <title>City Hunter</title>
+   <link href="./styles.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <div class="grid-container-1">
+      <div class="title">
+         <h1>City-Info</h1>
+      </div>
+      <div class="input">
+         <input type="text" name="search" placeholder="City or State" />
+      </div>
+      <div class="button">
+         <input type="submit" value="Search">
+      </div>
+
+   </div>
+
+   <div class="grid-container-2">
+      <div class="search-results">
+         <h3>Search results</h3>
+         <table style="width:100%" id="table">
+            <tr>
+               <th>City</th>
+               <th>State</th>
+               <th>Population</th>
+               <th>Growth</th>
+            </tr>
+            <tr>
+               <td>New York</td>
+               <td>New York</td>
+               <td class="population">8,405,837</td>
+               <td class="high">4.8%</td>
+            </tr>
+            <tr>
+               <td>Los Angeles</td>
+               <td>California</td>
+               <td class="population">2,718,782</td>
+               <td class="low">-6.1%</td>
+            </tr>
+
+            <tr>
+               <td>Houston</td>
+               <td>Texas</td>
+               <td class="population">8,405,837</td>
+               <td class="high">11.0%</td>
+            </tr>
+         </table>
+      </div>
+   </div>
+
+   <script src="./scripts.js"></script>
+</body>
+
+</html>
